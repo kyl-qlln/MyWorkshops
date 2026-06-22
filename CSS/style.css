@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #333;
+  padding: 1rem 2rem;
+  color: white;
+}
+
+.navbar .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #ff9800;
+}
+
+.header{
+  background-color: rgb(18, 33, 119);
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+/*FOR BUTTON 1 */
+
+.button1 {
+  font-family: 'Segoe UI';
+  flex: 1;
+  min-width: 200px;
+  background-color: #ddd;
+  padding: 2rem;
+  text-align: center;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.button1 button{
+   
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1rem;
+    font-family: Segoe UI;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    background-color: rgb(18, 33, 119);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 5px 10px;
+    margin-top: 10
+    px;
+}
+
+.button1 button:hover {
+   background-color: rgb(0, 193, 251);
+  transform: translateY(-2px);
+}
+
+/*FOR BUTTON 2 */
+
+.button2 {
+  font-family: 'Segoe UI';
+  flex: 1;
+  min-width: 200px;
+  margin-top: 5px;
+  background-color: #ddd;
+  padding: 2rem;
+  text-align: center;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.button2 button{
+  margin-left: auto;
+    margin-right: auto;
+    font-size: 1rem;
+    font-family: Segoe UI;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    background-color: rgb(18, 33, 119);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 5px 10px;
+    margin-top: 10
+    px;
+}
+
+.button2 button:hover{
+  background-color: rgb(0, 193, 251);
+  transform: translateY(-2px);
+}
