@@ -1,7 +1,7 @@
 body {
     background-color: #2D2E4D;
     background-image: url(https://lh3.googleusercontent.com/a/ACg8ocKrdsGJ7i9CEJQKtYUb1m8792pdizmyjSLP4zj7RtC-FrZ6Afo0=s332-c-no);
-    background-repeat: 2;
+    background-attachment: fixed;
     background-size: cover;
     background-blend-mode: multiply ;
     font-family: Arial, sans-serif;

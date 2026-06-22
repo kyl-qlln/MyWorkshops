@@ -121,7 +121,7 @@ body {
   transform: translateY(-2px);
 }
 
-/*FOR BUTTON 2 */
+/*FOR BUTTON 4 */
 
 .button3 {
   font-family: 'Segoe UI';
@@ -155,6 +155,44 @@ body {
 }
 
 .button3 button:hover{
+  background-color: rgb(0, 193, 251);
+  transform: translateY(-2px);
+}
+
+/*FOR BUTTON 4 */
+
+.button4 {
+  font-family: 'Segoe UI';
+  flex: 1;
+  min-width: 200px;
+  margin-top: 5px;
+  background-color: #ddd;
+  padding: 2rem;
+  text-align: center;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+
+}
+
+.button4 button{
+  margin-left: auto;
+    margin-right: auto;
+    font-size: 1rem;
+    font-family: Segoe UI;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    background-color: rgb(18, 33, 119);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 5px 10px;
+    margin-top: 10
+    px;
+}
+
+.button4 button:hover{
   background-color: rgb(0, 193, 251);
   transform: translateY(-2px);
 }
