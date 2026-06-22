@@ -62,6 +62,10 @@ a{
     transform: translateY(-2px) scale(1.2);
   transition: transform 0.15s ease-out;
 }
+.portfolio-link:active{
+    color: #202258;
+    background-color: white;
+}
 
 .business-card {
     align-items: center;
@@ -107,6 +111,10 @@ a{
   transition: transform 0.15s ease-out;
 
 }
+.social-media button:active {
+    color: #202258;
+    background-color: white;
+}
 
 .back-button{
     font-size: 10px;
@@ -125,5 +133,9 @@ a{
     background-color: #202258;
   transform: translateY(-2px) scale(1.2);
   transition: transform 0.15s ease-out;
+}
+.back-button:active {
+    color: #202258;
+    background-color: white;
 }
 
