@@ -4,20 +4,56 @@ body{
 }
 
 .todo-list{
-    text-align: c;
+    position: relative;
     align-items: center;
     padding: 20px;
     background-color: rgb(255, 255, 255);
     width: 400px;
-    height: 600px;
+    height: auto;
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
     box-shadow: 0 0 10px #d3d2d2;
     border-radius: 20px;
-    
-
+    overflow: hidden; /* For design only */
+    z-index: 2; /* For design only */
 }
+/* For design only */
+.todo-list::before{
+    content: "";
+    position: absolute;
+    inset: -8px; /* extend outside so glow is visible */
+    border-radius: 28px;
+    background: conic-gradient(from 0deg, #00b7ff, #ff30ff, #00b7ff);
+    filter: blur(10px);
+    transform-origin: center;
+    animation: spin 4s linear infinite;
+    z-index: 0;
+    pointer-events: none;
+    
+}
+
+.todo-list::after{
+    content: "";
+    position: absolute;
+    inset: 6px; /* inner cover so only border glows */
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    z-index: 1;
+}
+
+.todo-list > *{
+    position: relative;
+    z-index: 2; /* ensure content sits above the inner cover */
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to   { transform: rotate(360deg); }
+}
+
+/* For design only */
+
 .todo-list h1{
     text-align: center;
 }
