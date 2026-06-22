@@ -1,0 +1,120 @@
+body {
+    background-color: #2D2E4D;
+    background-image: url(https://lh3.googleusercontent.com/a/ACg8ocKrdsGJ7i9CEJQKtYUb1m8792pdizmyjSLP4zj7RtC-FrZ6Afo0=s332-c-no);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply ;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+p{
+    margin: 5px;
+    color: #FFFFFF;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.full-name{
+    font-size: 21px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.designation{
+    font-size: 18px;
+    margin-bottom: 5px;
+    opacity: 60%;
+}
+
+.company{
+    opacity: 30%;
+    margin-bottom: 5px;
+}
+
+.divider{
+    margin-top: 15px ;
+    margin-bottom: 15px;
+}
+
+.email, .mobile-number {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.portfolio-link{
+    display: block;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border: none;
+    padding: 0.4rem 1.2rem;
+    border-radius: 10px;
+    background-color: #2D2E4D;
+}
+
+.portfolio-link:hover {
+      background-color: #2D2E4D;
+    transform: translateY(-2px) scale(1.05);
+  transition: transform 0.15s ease-out;
+}
+
+.business-card {
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    padding: 20px;
+    border: 3px solid rgb(0,0,0);
+    margin-top: 50px;
+    background-color: #595D7A;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.profile-image {
+    max-width: 75%;
+}
+
+.social-media h2 {
+    color: white;
+}
+
+.social-media button{
+    color: white;
+    margin-left: auto;
+    margin-right: 15px;
+    margin-top: -10px;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 7.5px;
+    background-color: #2D2E4D;
+}
+
+.social-media button:hover {
+    background-color: #2D2E4D;
+  transform: translateY(-2px) scale(1.05);
+  transition: transform 0.15s ease-out;
+}
+
+.back-button{
+    font-size: 10px;
+    color: white;
+    margin-right: 300px;
+    margin-top: -100px;
+    margin-bottom: 10px;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 7.5px;
+    background-color: #2D2E4D;
+
+}
+
+.back-button:hover {
+    background-color: #2D2E4D;
+  transform: translateY(-2px) scale(1.05);
+  transition: transform 0.15s ease-out;
+}
