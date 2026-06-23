@@ -31,51 +31,51 @@ body {
 }
 
 
-.main-div {
-    margin-top: 40px;
+.main-div{
+
+    margin-top: 50px;
+    display: block;
     margin-left: 40px;
     margin-right: 40px;
+    padding: 20px;
     background-color: #f0f0f0;
-    padding: 10px;
     border-radius: 20px;
 }
 
-header {
-    text-align: center;
-    line-height: 0.5;
+.header-img{
+    margin-bottom: 10px;
+    border-radius: 20px;
+    overflow: hidden;
 }
 
-.header-img {
-    margin-top: 20px;
-    border-radius: 10px;
-}
-
-main {
-    align-items: center;
+.header {
+    margin-top: 10px;
     text-align: center;
 }
 
-section, hr {
-    width: 100%;
+.header p{
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.header h1{
+    margin-top: -5px;
+    margin-bottom: -5px;
 }
 
-.section1 {
-    width: 50%;
-    margin-right: 10px;
+
+.main-section{
+    text-align: center;
+    display: block;
+    font-size: 14px;
 }
 
-.section1 ul{
+.main-section h2{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.main-section ul{
     text-align: left;
-}
-
-.section2 {
-    margin-left: 50%;
-    margin-right: 100%;
-    width: 50%;
-    margin-top: -21.5%;
-}
-.section2 ul {
-    text-align: left;
-    list-style-position: inside;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 
