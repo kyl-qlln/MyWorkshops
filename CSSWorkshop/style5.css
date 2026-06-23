@@ -8,6 +8,29 @@ body {
     min-height: calc(100vh - 100px);
 }
 
+.back-button {
+    margin-left: 5px;
+    margin-top: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(105, 95, 95);
+    color: #f0f0f0;
+    border-radius: 5px;
+}
+.back-button:hover{
+    box-shadow: 0 0 10px black;
+}
+.back-button:focus {
+    outline: 2px solid black;
+    box-shadow: 0 0 10px black;
+}
+.back-button:active{
+    background-color: rgb(138, 127, 127);
+}
+
+
 .main-div {
     margin-top: 40px;
     margin-left: 40px;
@@ -23,7 +46,7 @@ header {
 }
 
 .header-img {
-    margin-top: 40px;
+    margin-top: 20px;
     border-radius: 10px;
 }
 
@@ -55,3 +78,4 @@ section, hr {
     text-align: left;
     list-style-position: inside;
 }
+
