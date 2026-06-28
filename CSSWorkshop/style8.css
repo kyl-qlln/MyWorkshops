@@ -1,0 +1,153 @@
+body {
+    background-color: whitesmoke;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-color: white;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 10px 40px;
+    box-shadow: 0 0 10px rgb(170, 167, 167);
+}
+
+h1 {
+    text-align: center;
+}
+
+
+fieldset {
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 7px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    
+}
+
+fieldset label {
+    font-size: 14px;
+    font-weight: 100;
+}
+
+fieldset legend {
+    font-size: 1.0rem;
+}
+
+label {
+    font-size: 1.0rem;
+    font-weight: 600;
+}
+
+label:not(.contact-method), select {
+    display: block;
+    margin: 7px 0;
+}
+
+.input-class {
+    width: 96.5%;
+    border: none;
+    outline: 1px solid red;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+#position {
+    padding: 10px;
+    width: 100%;
+    border-radius: 7px;
+    border-color: red;
+
+}
+
+textarea {
+    border: none;
+    outline: 1px solid red;
+    border-radius: 5px;
+    padding: 10px 10px;
+    width: 97%;
+}
+
+
+
+textarea:focus, input:focus {
+    border-color: red;
+}
+
+input:invalid, select:invalid, textarea:invalid {
+    border-color: red;
+}
+
+input:valid, select:valid, textarea:valid {
+    border-color: green;
+}
+
+button:hover {
+    background-color: #ffffff1a;
+}
+
+.contact-method-radio-btn {
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid gray;
+    vertical-align: bottom;
+}
+
+.contact-method-radio-btn::before {
+    display: block;
+    content: " ";
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    transform: translate(1px, 1px) scale(0);
+    transition: all 0.3s ease-in;
+}
+
+.contact-method-radio-btn:checked::before {
+    transform: translate(3px, 3px) scale(1);
+    background-color: lightgreen;
+}
+
+
+
+input:first-of-type {
+    color: red;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: lightgreen;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    box-shadow: 0 0 5px green;
+    margin-bottom: 10px;
+}
+
+.cancel-btn {
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(247, 113, 113);
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    box-shadow: 0 0 5px rgb(255, 0, 0);
+    margin-bottom: 10px;
+}
+
+.submit-btn:hover {
+    background-color: green;
+}
+
+.cancel-btn:hover {
+    background-color: red;
+}

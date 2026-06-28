@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+    <link rel="stylesheet" href="style8.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Job Application Form</h1>
+
+        <form action="">
+
+            <label for="name" class="full-name">Full Name: </label>
+            <input required type="text" name="name" id="name" placeholder="Enter your name" class="input-class">
+            <label for="email" class="email-input">Email: </label>
+            <input required type="email" name="email" id="email" placeholder="Enter your email" class="input-class">
+            <label for="position">Position: </label>
+
+            <select name="position" id="position">
+                <option value="select-a-position">Select a position</option>
+                <option value="developer">Developer</option>
+                <option value="designer">Desginer</option>
+                <option value="manager">Manager</option>
+            </select>
+
+            <fieldset>
+                <legend>Availability </legend>
+
+
+                <input type="radio" name="contact-method" id="full-time" value="full-time" class="contact-method-radio-btn"
+                    checked>
+                <label for="full-time" class="contact-method">Full-Time </label>
+                <input type="radio" name="contact-method" id="part-time" value="part-time" class="contact-method-radio-btn">
+                <label for="part-time" class="contact-method">Part-Time </label>
+            </fieldset>
+
+            <label for="message">Why do you want this job?</label>
+            <textarea name="message" id="message" rows="5" cols="40" placeholder="Write your motivation"></textarea> <br><br>
+            <button type="submit" class="submit-btn" >Submit Application</button>
+            <button type="button" class="cancel-btn" onclick="location.href='../index.html';">Cancel and Go Back</button>
+
+        </form>
+
+
+
+    </div>
+
+</body>
+
+</html>
